@@ -42,10 +42,6 @@ button{
     display: inline-block;
 }
 
-a{
-    display: inline-block;
-}
-
 
 
  body{
@@ -144,10 +140,12 @@ margin-bottom: 8px;
     display: flex;
     align-items: center;
     gap: 40px; 
-    padding: 24px 0;
+    
 }
 
-
+.menu-item{
+   padding: 24px 0; 
+}
 
 .menu-link {
 font-weight: 500;
@@ -451,10 +449,11 @@ color: #F4F4FD;
 
 
 .cards-border{
-    border-top: none; 
     padding: 32px 16px;
+    border: 1px solid #e7e9fc; 
+    border-top: none;
     background: #FFFFFF;
-    border: 1px solid #E7E9FC;
+    
 }
 
 .cards-sub-title{
