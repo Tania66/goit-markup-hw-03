@@ -30,6 +30,7 @@ img{
 
 button{
     cursor: pointer;
+
 }
 
 .list{
@@ -69,6 +70,7 @@ background-color: #FFF;
     text-transform: uppercase;
     color: #4d5ae5;
     margin-right: 76px;
+    display: inline-block;
 }
 
 .logo-part{
@@ -117,8 +119,10 @@ margin-bottom: 8px;
 
 /*HEADER************************************/
 
+
 .header{
     padding: 24px 0;
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .container-header{
@@ -211,7 +215,7 @@ color: #434455;
 .main-title{
 text-align: center;
 margin-bottom: 48px;
-width: 496px;
+max-width: 496px;
 font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
@@ -223,8 +227,11 @@ color: #FFFFFF;
 padding: 16px 32px;
 background-color: #4D5AE5;
 color: #FFF;
+border: none;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
+min-width: 169px;
+height: 56px;
 font-family: "Roboto", sans-serif;
 
 }
@@ -325,7 +332,7 @@ align-items: center;
 }
 
 .border-team{
-    padding: 32px 0;
+    padding: 32px 16px; 
     border-top: none;
     text-align: center;
     background: #FFFFFF;
@@ -378,13 +385,14 @@ color: #F4F4FD;
 /*PORTFOLIO************************************/
 
 .cards{
-    padding: 72px 0 120px 0;
+    padding: 96px 0 120px;
 }
 
 
 .filter-list{
     display: flex;
     justify-content: center;
+     margin-bottom: 72px;
 }
 
 .filters-item:not(:last-child){
@@ -394,7 +402,7 @@ color: #F4F4FD;
 .filter-btn {
     padding: 12px 24px;
     border-radius: 4px;
-    margin-bottom: 72px;
+    border: 1px solid #e7e9fc;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -409,6 +417,7 @@ color: #F4F4FD;
 
 .filter-btn:hover,
 .filter-btn:focus{
+    border: 1px solid transparent;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 
     0px 2px 1px rgba(0, 0, 0, 0.08), 
     0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -430,7 +439,7 @@ color: #F4F4FD;
 }
 
 .cards-border{
-    padding: 32px 0 32px 16px;
+    padding: 32px 16px;
     border-top: none;
     
     background: #FFFFFF;
