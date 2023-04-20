@@ -139,11 +139,9 @@ margin-bottom: 8px;
 .menu-list{
     display: flex;
     align-items: center;
+    gap: 40px;
 }
 
-.menu-item:not(:last-child) {
-    margin-right: 40px;
-}
 
 
 .menu-link {
@@ -364,6 +362,7 @@ align-items: center;
 
 
 .logo-footer{
+    display: inline-block;
     margin-bottom: 16px;
 }
 
@@ -438,10 +437,10 @@ color: #F4F4FD;
     height: auto;
 }
 
+
 .cards-border{
     padding: 32px 16px;
     border-top: none;
-    
     background: #FFFFFF;
     border: 1px solid #E7E9FC;
 }
