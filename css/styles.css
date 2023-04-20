@@ -79,6 +79,7 @@ background-color: #FFF;
 }
 
 .logo-style{
+    display: inline-block;
     color: #F4F4FD;
 }
 
@@ -159,10 +160,11 @@ color: #2E2F42;
 }
 
 .contacts-item{
-    padding: 24px 0;
+   
 }
 
 .contacts {
+     padding: 24px 0;
 display: flex;
 align-items: center;
 font-style: normal;     
@@ -325,8 +327,12 @@ align-items: center;
 }
 
 
-.team-img{
+.team-item{
     border-radius: 0px 0px 4px 4px; 
+}
+
+.team-img{
+    
     max-width: 100%;
     height: auto;
    
